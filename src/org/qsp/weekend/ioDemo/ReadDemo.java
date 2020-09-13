@@ -12,6 +12,7 @@ public class ReadDemo {
 			Object o =ois.readObject();
 			if(o instanceof Student){
 				Student s = (Student) o;
+				System.out.println("******");
 				System.out.println(s.name + " " +s.dept +" "+s.pecr + " " + s.roll);
 			}
 			ois.close();
